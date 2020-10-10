@@ -1,0 +1,162 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+/* -------------- */
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Sansita Swashed', cursive; */
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	background-color: #cad0d3;
+	color: #000;
+}
+.section {
+	align-items: center;
+}
+.container {
+	position: relative;
+	width: 1180px;
+	margin: 0 auto;
+}
+.link__whatsapp,
+.link__viber,
+.link__phone,
+.link__facebook,
+.link__vk,
+.link__instagram {
+	padding: 10px 0px 0px 0px;
+	margin: 0px 10px 0px 10px;
+	max-width: 40px;
+	max-height: 40px;
+}
+.link__whatsapp:hover {
+	transform: scale(2);
+	transition: all 0.8s ease 0s;
+}
+.link__viber:hover {
+	transform: scale(2);
+	transition: all 0.8s ease 0s;
+}
+.link__phone:hover {
+	transform: scale(2);
+	transition: all 0.8s ease 0s;
+}
+.link__facebook:hover {
+	transform: scale(2);
+	transition: all 0.8s ease 0s;
+}
+.link__vk:hover {
+	transform: scale(2);
+	transition: all 0.8s ease 0s;
+}
+.link__instagram:hover {
+	transform: scale(2);
+	transition: all 0.8s ease 0s;
+}
+.header {
+	height: 135px;
+}
+
+.content__title {
+}
+.content__title-name,
+.footer__data {
+	font-family: "Sansita Swashed", cursive;
+	font-weight: 900;
+	font-size: 24px;
+	text-align: center;
+	padding: 25px 0px 0px 0px;
+}
+.content__link {
+	text-align: center;
+	padding: 25px 0px 0px 0px;
+}
+
+.main {
+	background-color: #eee;
+}
+.main__content {
+}
+.content__items {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.image1,
+.image2 {
+	max-width: 100vh;
+}
+
+.image1 {
+	float: left;
+}
+.image2 {
+	float: right;
+}
+.footer {
+	min-height: 150px;
+	position: relative;
+}
+.footer__content {
+	padding: 0px 0px 20px 0px;
+}
+.footer__items {
+	text-align: center;
+}
+
+.footer__contacts {
+	padding: 15px 0px 0px 0px;
+}
+
+.footer__social {
+	padding: 15px 0px 0px 0px;
+}
